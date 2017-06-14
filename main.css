@@ -1,0 +1,192 @@
+/*banner*/
+.banner{
+  height: 200px;
+  width: 100%;
+  z-index:2; 
+  position:relative;
+}
+
+h1{
+  position:absolute;
+  color:white;
+  font-family: 'Courgette', cursive;
+}
+
+.flex-container{
+  display: flex;
+	flex-flow: row wrap; 
+  justify-content:space-between;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.flex-item{
+  height: 35px;
+  width: 200px;
+  background-color:#C56EE5;
+  list-style: none;
+  text-align: center;
+  color:white;
+  font-size:25px;
+  font-family: 'Courgette', cursive;
+}
+/*banner*/
+
+/*Pictures*/
+.flex-container2{
+  display: flex;
+	flex-flow: row nowrap;
+  justify-content: space-between;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.flex-item2{
+  height: 200px;
+  width: 200px;
+  background-color:#C56EE5;
+  list-style: none;
+}
+/*Pictures*/
+
+/*About Me Paragraph*/
+.box{
+  position:relative;
+  height: 100px;
+  width: 100%;
+  background-color: #39CDCD
+}
+.paragraph1{
+  position:absolute;
+  font-size:16px;
+  text-align:center;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+/*About Me Paragraph*/
+
+/*Pink Line*/
+.box2{
+  height:5px;
+  width:100%;
+  background-color:#E56E6E
+}
+/*Pink Line*/
+
+/*Movies*/
+.flex-container4{
+  display: flex;
+	flex-flow: row nowrap;
+  justify-content: space-between;
+	list-style: none;
+	margin:0;
+	padding:0;
+  color:#FF1493;
+  font-size: 20px;
+  font-family: 'Courgette', cursive;
+}
+
+
+.flex-container3{
+  display: flex;
+	flex-flow: row nowrap;
+  justify-content: space-between;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.flex-item3, .flex-item4, .flex-item5{
+  width: 200px;
+  height: 200px;
+  background-color:#39CDCD;
+  list-style: none;
+  align-items:center;
+}
+
+.flex-container4{
+  display: flex;
+	flex-flow: row wrap;
+  justify-content: space-between;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.image{
+  width: 175px;
+  height: 175px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.image2{
+  width: 175px;
+  height: 175px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.image3{
+  width: 175px;
+  height: 175px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+/*Movies*/
+
+/*Travel*/
+.box-one{
+  border: 5px solid purple;
+  max-width:50%;
+  margin: 20px;
+}
+
+.costarica{
+  width: 175px;
+  height: 175px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+h3{
+  font-family: 'Courgette', cursive;
+  color:deeppink;
+}
+
+.CR{
+  display:inline;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.bahamas{
+  width: 175px;
+  height: 175px;
+  overflow: hidden;
+  border-radius: 50%; 
+}
+
+.bah{
+ display:inline; 
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+/*Travel*/
+
+/*Book*/
+.book{
+  display:block;
+}
+
+.button	{
+	background: #C56EE5;
+	padding: 5px;
+  margin-top:5px;
+	border-radius: 5px;
+	color: white;
+  font-size: 20px;
+  text-decoration: none;
+  display:inline;
+  }
+
+@media (min-width: 627px)
